@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class notas {
 	
 	//declaramos la variables que nos hacen falta
-		double ej1, ej2, ej3;
+		double uni1, uni2, uni3;
 		double acu1, acu2, acu3, def;
 		//utilizamos Scanner para poder introducir datos
 		Scanner entrada = new Scanner(System.in);
@@ -24,14 +24,14 @@ public class notas {
 			
 			System.out.print("A continuación nota 1: ");
 			
-			ej1= entrada.nextDouble();
+			uni1= entrada.nextDouble();
 
 			System.out.print("A continuación nota 2: ");
 			
-			ej2= entrada.nextDouble();
+			uni2= entrada.nextDouble();
 			System.out.print("A continuación 3: ");
 			
-			ej3= entrada.nextDouble();
+			uni3= entrada.nextDouble();
 			
 		
 		}
@@ -42,20 +42,20 @@ public class notas {
 		
 		public void comprobarcion(){
 			
-			if (ej1>10) {
+			if (uni1>10) {
 				System.out.println(" nota1 mal introducida");
 				
 			}else {
 				System.out.println(" nota1 correcta");
 			}
 			
-			if (ej2>10) {
+			if (uni2>10) {
 				System.out.println(" nota2 mal introducida");
 				
 			}else {
 				System.out.println(" nota2 correcta");
 			}
-			if (ej3>10) {
+			if (uni3>10) {
 				System.out.println(" nota3 mal introducida");
 				
 			}else {
@@ -72,9 +72,9 @@ public class notas {
 		 */
 		
 		public void Calculonotas() {
-			acu1= ej1*0.35;
-			acu2 = ej2 * 0.35;
-			acu3 = ej2 * 0.30;
+			acu1= uni1*0.35;
+			acu2 = uni2 * 0.35;
+			acu3 = uni3 * 0.30;
 			
 			def = acu1 + acu2+ acu3;
 			
@@ -87,9 +87,9 @@ public class notas {
 		public void Mostrar() {
 			//print ln lo que hace es que al terminar el print baja la linea
 			System.out.println(" notas introducidas son:");
-			System.out.println(" nota1 = " + ej1);
-			System.out.println(" nota2 = " + ej2);
-			System.out.println(" nota3 = " + ej3);
+			System.out.println(" nota1 = " + uni1);
+			System.out.println(" nota2 = " + uni2);
+			System.out.println(" nota3 = " + uni3);
 			
 			System.out.println(" acumuado 1 = "+ acu1);
 			System.out.println(" acumuado 2 = "+ acu2);
