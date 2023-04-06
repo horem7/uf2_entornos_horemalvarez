@@ -20,16 +20,16 @@ public class notas {
 		 */
 		public void IngresaNotas() {
 			//cuando ejeuctamos este metodo lo primnero que queremos es que nos pida notas
-			System.out.println("ingrese las notas del estudiante");
+			System.out.println("Introduce las notas del estudiante");
 			
-			System.out.print("ingrese nota 1: ");
+			System.out.print("A continuación nota 1: ");
 			
 			ej1= entrada.nextDouble();
 
-			System.out.print("ingrese nota 2: ");
+			System.out.print("A continuación nota 2: ");
 			
 			ej2= entrada.nextDouble();
-			System.out.print("ingrese nota 3: ");
+			System.out.print("A continuación 3: ");
 			
 			ej3= entrada.nextDouble();
 			
